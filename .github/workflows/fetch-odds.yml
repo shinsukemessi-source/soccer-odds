@@ -1,0 +1,29 @@
+name: fetch-odds
+on:
+  schedule:
+    - cron: "15 7 * * *"   # 16:15 JST（予想の 18:00 JST より前）
+    - cron: "15 8 * * *"   # 念のためもう一度
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download odds from football-data.co.uk
+        run: |
+          mkdir -p data
+          UA="Mozilla/5.0"
+          Y=$((10#$(date -u +%y))); M=$((10#$(date -u +%m)))
+          if [ $M -ge 7 ]; then S=$(printf "%02d%02d" $Y $((Y+1))); else S=$(printf "%02d%02d" $((Y-1)) $Y); fi
+          curl -fsSL -A "$UA" https://www.football-data.co.uk/fixtures.csv -o data/fixtures.csv
+          for d in E0 SP1; do curl -fsSL -A "$UA" "https://www.football-data.co.uk/mmz4281/$S/$d.csv" -o "data/$d.csv"; done
+          date -u +%Y-%m-%dT%H:%M:%SZ > data/updated.txt
+      - name: Commit
+        run: |
+          git config user.name "odds-bot"
+          git config user.email "odds-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "update odds $(date -u +%F)"
+          git push
