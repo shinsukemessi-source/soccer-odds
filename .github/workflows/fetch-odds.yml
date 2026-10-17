@@ -25,10 +25,64 @@ jobs:
             curl -fsSL -A "$UA" "https://www.football-data.co.uk/mmz4281/$P/$d.csv" -o "data/${d}_prev.csv" || true
           done
           date -u +%Y-%m-%dT%H:%M:%SZ > data/updated.txt
+      - name: Download player and team stats from Understat
+        run: |
+          cat > us_fetch.py <<'PY'
+          """Understat から 5大リーグの選手スタッツ（今季・昨季）とチームの試合別データを取って CSV にする。
+          GitHub Actions（fetch-odds.yml）から実行。ローカルでは python understat_fetch.py <出力フォルダ>"""
+          import csv, gzip, json, os, sys, time, urllib.request
+          from datetime import datetime, timezone
+
+          LEAGUES = ["EPL", "La_liga", "Bundesliga", "Serie_A", "Ligue_1"]
+          PCOLS = ["id", "player_name", "team_title", "position", "games", "time", "goals", "xG", "npg", "npxG", "assists", "xA",
+                   "shots", "key_passes", "xGChain", "xGBuildup", "yellow_cards", "red_cards"]
+
+          def get(code, yr):
+              u = f"https://understat.com/getLeagueData/{code}/{yr}"
+              h = {"User-Agent": "Mozilla/5.0", "X-Requested-With": "XMLHttpRequest", "Referer": f"https://understat.com/league/{code}/{yr}"}
+              r = urllib.request.urlopen(urllib.request.Request(u, headers=h), timeout=60)
+              b = r.read()
+              if r.headers.get("Content-Encoding") == "gzip" or b[:2] == b"\x1f\x8b": b = gzip.decompress(b)
+              return json.loads(b)
+
+          def num(v):
+              try: return float(v)
+              except Exception: return 0.0
+
+          def main(out):
+              os.makedirs(out, exist_ok=True)
+              now = datetime.now(timezone.utc); cur = now.year if now.month >= 7 else now.year - 1
+              for code in LEAGUES:
+                  for yr, suf in ((cur, ""), (cur - 1, "_prev")):
+                      try: d = get(code, yr)
+                      except Exception as e:
+                          print(code, yr, "ERR", e); continue
+                      with open(os.path.join(out, f"us_{code}{suf}.csv"), "w", newline="", encoding="utf-8") as f:
+                          w = csv.writer(f); w.writerow(PCOLS)
+                          for p in d.get("players") or []: w.writerow([p.get(c, "") for c in PCOLS])
+                      # チームの試合別：PPDA（相手の守備側パス数÷こちらの守備アクション。小さいほど前から圧力）、deep（敵陣深くへのパス）
+                      with open(os.path.join(out, f"us_{code}{suf}_teams.csv"), "w", newline="", encoding="utf-8") as f:
+                          w = csv.writer(f); w.writerow(["team", "date", "h_a", "xG", "xGA", "npxG", "npxGA", "ppda_att", "ppda_def",
+                                                         "oppda_att", "oppda_def", "deep", "deep_allowed", "scored", "missed"])
+                          for t in (d.get("teams") or {}).values():
+                              for m in t.get("history") or []:
+                                  pp = m.get("ppda") or {}; op = m.get("ppda_allowed") or {}
+                                  w.writerow([t.get("title"), m.get("date"), m.get("h_a"), m.get("xG"), m.get("xGA"), m.get("npxG"), m.get("npxGA"),
+                                              pp.get("att"), pp.get("def"), op.get("att"), op.get("def"), m.get("deep"), m.get("deep_allowed"),
+                                              m.get("scored"), m.get("missed")])
+                      print(code, yr, len(d.get("players") or []), "players")
+                      time.sleep(2)
+
+          if __name__ == "__main__":
+              main(sys.argv[1] if len(sys.argv) > 1 else "data")
+
+          PY
+          python3 us_fetch.py data || true
+          rm -f us_fetch.py
       - name: Commit
         run: |
           git config user.name "odds-bot"
           git config user.email "odds-bot@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "update odds $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "update odds and stats $(date -u +%F)"
           git push
