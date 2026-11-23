@@ -1,0 +1,297 @@
+league,kick_utc,kick_jst,home,away,hs,as,status,detail
+esp.copa_del_rey,2026-09-26 16:00,2026-09-27 01:00,Anaitasuna,CD Tedeón,5,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-26 16:00,2026-09-27 01:00,Atlético Calatayud,CD Baztán,2,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-26 16:00,2026-09-27 01:00,UB Lebrijana,Ceuta 6 de Junio,5,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-26 17:00,2026-09-27 02:00,Ribadesella,SD Noja,1,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-26 18:00,2026-09-27 03:00,Atlético Pinatarense,Atlético Melilla,8,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-27 10:00,2026-09-27 19:00,Auriense Cented Academy,CD San José,2,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-27 10:00,2026-09-27 19:00,Sporting Hortaleza,Atlético Unión Güímar,1,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-27 14:00,2026-09-27 23:00,CF San Rafael,AE Prat,1,5,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-27 15:30,2026-09-28 00:30,CP Talayuela,Sporting de Alcázar,1,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-09-27 16:00,2026-09-28 01:00,Maracena,Tavernes de la Valldigna,1,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-03 15:30,2026-10-04 00:30,CD Baztán,Atlético Calatayud,1,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-03 16:00,2026-10-04 01:00,CD Tedeón,Anaitasuna,2,5,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-03 16:00,2026-10-04 01:00,Ceuta 6 de Junio,UB Lebrijana,1,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-04 14:00,2026-10-04 23:00,CD San José,Auriense Cented Academy,1,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-04 14:00,2026-10-04 23:00,SD Noja,Ribadesella,1,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-04 15:30,2026-10-05 00:30,Sporting de Alcázar,CP Talayuela,1,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-04 16:00,2026-10-05 01:00,Atlético Melilla,Atlético Pinatarense,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-04 16:00,2026-10-05 01:00,Tavernes de la Valldigna,Maracena,0,0,STATUS_FINAL_PEN,FT-Pens
+esp.1,2026-10-09 19:00,2026-10-10 04:00,Málaga,Espanyol,1,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-10 11:30,2026-10-10 20:30,Arsenal,Leeds United,2,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-10 14:00,2026-10-10 23:00,Aston Villa,Brentford,2,2,STATUS_FULL_TIME,FT
+eng.1,2026-10-10 14:00,2026-10-10 23:00,Chelsea,AFC Bournemouth,5,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-10 14:00,2026-10-10 23:00,Ipswich Town,Fulham,2,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-10 14:00,2026-10-10 23:00,Sunderland,Brighton & Hove Albion,0,2,STATUS_FULL_TIME,FT
+esp.1,2026-10-10 14:15,2026-10-10 23:15,Alavés,Atlético Madrid,1,2,STATUS_FULL_TIME,FT
+eng.1,2026-10-10 16:30,2026-10-11 01:30,Manchester United,Tottenham Hotspur,1,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-10 16:30,2026-10-11 01:30,Barcelona,Getafe,3,0,STATUS_FULL_TIME,FT
+esp.1,2026-10-10 19:00,2026-10-11 04:00,Real Madrid,Villarreal,1,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-11 11:00,2026-10-11 20:00,Atlético Unión Güímar,Sporting Hortaleza,3,3,STATUS_FINAL_AET,AET
+esp.1,2026-10-11 12:00,2026-10-11 21:00,Elche,Celta Vigo,0,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-11 13:00,2026-10-11 22:00,Crystal Palace,Nottingham Forest,3,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-11 13:00,2026-10-11 22:00,Hull City,Everton,2,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-11 14:00,2026-10-11 23:00,AE Prat,CF San Rafael,5,0,STATUS_FULL_TIME,FT
+esp.1,2026-10-11 14:15,2026-10-11 23:15,Real Sociedad,Deportivo,3,2,STATUS_FULL_TIME,FT
+eng.1,2026-10-11 15:30,2026-10-12 00:30,Liverpool,Manchester City,0,3,STATUS_FULL_TIME,FT
+esp.1,2026-10-11 16:30,2026-10-12 01:30,Real Betis,Osasuna,5,2,STATUS_FULL_TIME,FT
+esp.1,2026-10-11 19:00,2026-10-12 04:00,Racing Santander,Valencia,2,2,STATUS_FULL_TIME,FT
+eng.1,2026-10-12 19:00,2026-10-13 04:00,Coventry City,Newcastle United,4,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-12 19:00,2026-10-13 04:00,Levante,Sevilla,3,3,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 16:45,2026-10-14 01:45,Lens,Sporting CP,0,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 16:45,2026-10-14 01:45,Sabah FK,Slavia Prague,2,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 19:00,2026-10-14 04:00,Arsenal,Lille,3,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 19:00,2026-10-14 04:00,Atlético Madrid,Manchester United,2,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 19:00,2026-10-14 04:00,Galatasaray,Barcelona,1,4,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 19:00,2026-10-14 04:00,Internazionale,Club Brugge,3,4,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 19:00,2026-10-14 04:00,RB Leipzig,PSV Eindhoven,1,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 19:00,2026-10-14 04:00,Viking FK,Bayern Munich,3,3,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-13 19:00,2026-10-14 04:00,Villarreal,Napoli,3,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 16:45,2026-10-15 01:45,Feyenoord Rotterdam,Como,3,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 16:45,2026-10-15 01:45,LASK Linz,Liverpool,3,6,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 19:00,2026-10-15 04:00,AS Roma,Real Madrid,3,4,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 19:00,2026-10-15 04:00,Aston Villa,Fenerbahce,6,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 19:00,2026-10-15 04:00,Bodo/Glimt,Borussia Dortmund,1,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 19:00,2026-10-15 04:00,Manchester City,Paris Saint-Germain,2,4,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 19:00,2026-10-15 04:00,Real Betis,FC Porto,3,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 19:00,2026-10-15 04:00,Shakhtar Donetsk,AEK Athens,3,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-14 19:00,2026-10-15 04:00,Slovan Bratislava,VfB Stuttgart,0,3,STATUS_FULL_TIME,FT
+esp.1,2026-10-16 19:00,2026-10-17 04:00,Deportivo,Levante,1,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-17 11:30,2026-10-17 20:30,Everton,Chelsea,0,2,STATUS_FULL_TIME,FT
+esp.1,2026-10-17 12:00,2026-10-17 21:00,Espanyol,Atlético Madrid,0,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-17 14:00,2026-10-17 23:00,Brentford,Liverpool,1,2,STATUS_FULL_TIME,FT
+eng.1,2026-10-17 14:00,2026-10-17 23:00,Fulham,Hull City,1,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-17 14:00,2026-10-17 23:00,Manchester City,Ipswich Town,3,2,STATUS_FULL_TIME,FT
+esp.1,2026-10-17 14:15,2026-10-17 23:15,Villarreal,Elche,0,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-17 16:30,2026-10-18 01:30,Newcastle United,Aston Villa,0,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-17 16:30,2026-10-18 01:30,Real Betis,Barcelona,2,5,STATUS_FULL_TIME,FT
+esp.1,2026-10-17 19:00,2026-10-18 04:00,Valencia,Athletic Club,0,0,STATUS_FULL_TIME,FT
+esp.1,2026-10-18 12:00,2026-10-18 21:00,Osasuna,Racing Santander,2,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-18 13:00,2026-10-18 22:00,AFC Bournemouth,Sunderland,2,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-18 13:00,2026-10-18 22:00,Brighton & Hove Albion,Crystal Palace,5,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-18 13:00,2026-10-18 22:00,Leeds United,Manchester United,1,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-18 14:15,2026-10-18 23:15,Celta Vigo,Alavés,2,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-18 15:30,2026-10-19 00:30,Nottingham Forest,Arsenal,0,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-18 16:30,2026-10-19 01:30,Málaga,Real Sociedad,2,5,STATUS_FULL_TIME,FT
+esp.1,2026-10-18 19:00,2026-10-19 04:00,Real Madrid,Sevilla,4,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-19 19:00,2026-10-20 04:00,Tottenham Hotspur,Coventry City,3,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-19 19:00,2026-10-20 04:00,Getafe,Rayo Vallecano,1,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 16:45,2026-10-21 01:45,Fenerbahce,Slavia Prague,2,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 16:45,2026-10-21 01:45,Sabah FK,Borussia Dortmund,1,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 19:00,2026-10-21 04:00,AS Roma,Slovan Bratislava,4,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 19:00,2026-10-21 04:00,FC Porto,PSV Eindhoven,0,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 19:00,2026-10-21 04:00,Liverpool,Villarreal,4,3,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 19:00,2026-10-21 04:00,Manchester City,AEK Athens,5,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 19:00,2026-10-21 04:00,Napoli,Bodo/Glimt,4,3,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 19:00,2026-10-21 04:00,Paris Saint-Germain,Barcelona,4,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-20 19:00,2026-10-21 04:00,VfB Stuttgart,Atlético Madrid,1,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 16:45,2026-10-22 01:45,Como,Manchester United,4,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 16:45,2026-10-22 01:45,Lille,Galatasaray,2,4,STATUS_FULL_TIME,FT
+esp.1,2026-10-21 18:00,2026-10-22 03:00,Levante,Athletic Club,3,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 19:00,2026-10-22 04:00,Aston Villa,Viking FK,3,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 19:00,2026-10-22 04:00,Bayern Munich,Arsenal,2,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 19:00,2026-10-22 04:00,Club Brugge,Lens,3,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 19:00,2026-10-22 04:00,Internazionale,Shakhtar Donetsk,1,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 19:00,2026-10-22 04:00,Real Betis,Feyenoord Rotterdam,1,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 19:00,2026-10-22 04:00,Real Madrid,RB Leipzig,4,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-10-21 19:00,2026-10-22 04:00,Sporting CP,LASK Linz,2,3,STATUS_FULL_TIME,FT
+eng.1,2026-10-23 19:00,2026-10-24 04:00,Ipswich Town,Nottingham Forest,1,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-23 19:00,2026-10-24 04:00,Alavés,Málaga,1,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-24 11:30,2026-10-24 20:30,Aston Villa,Manchester City,2,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-24 12:00,2026-10-24 21:00,Rayo Vallecano,Elche,0,3,STATUS_FULL_TIME,FT
+eng.1,2026-10-24 14:00,2026-10-24 23:00,Arsenal,Everton,2,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-24 14:00,2026-10-24 23:00,Coventry City,Fulham,0,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-24 14:15,2026-10-24 23:15,Racing Santander,Espanyol,2,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-24 16:30,2026-10-25 01:30,Chelsea,Tottenham Hotspur,0,2,STATUS_FULL_TIME,FT
+esp.1,2026-10-24 16:30,2026-10-25 01:30,Valencia,Villarreal,1,2,STATUS_FULL_TIME,FT
+esp.1,2026-10-24 19:00,2026-10-25 04:00,Atlético Madrid,Deportivo,1,0,STATUS_FULL_TIME,FT
+esp.1,2026-10-25 13:00,2026-10-25 22:00,Athletic Club,Getafe,4,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-25 14:00,2026-10-25 23:00,Crystal Palace,Newcastle United,0,2,STATUS_FULL_TIME,FT
+eng.1,2026-10-25 14:00,2026-10-25 23:00,Hull City,Brentford,1,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-25 14:00,2026-10-25 23:00,Liverpool,Brighton & Hove Albion,2,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-25 14:00,2026-10-25 23:00,Manchester United,AFC Bournemouth,0,3,STATUS_FULL_TIME,FT
+esp.1,2026-10-25 15:15,2026-10-26 00:15,Celta Vigo,Real Betis,0,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-25 16:30,2026-10-26 01:30,Sunderland,Leeds United,0,0,STATUS_FULL_TIME,FT
+esp.1,2026-10-25 17:30,2026-10-26 02:30,Real Sociedad,Levante,2,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-25 20:00,2026-10-26 05:00,Barcelona,Real Madrid,1,2,STATUS_FULL_TIME,FT
+esp.1,2026-10-26 20:00,2026-10-27 05:00,Sevilla,Osasuna,2,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 17:30,2026-10-28 02:30,CD Cuarte,Girona,0,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 18:00,2026-10-28 03:00,Atlético Pinatarense,Elche,1,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 18:00,2026-10-28 03:00,CF Calamocha,CE Europa,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 18:00,2026-10-28 03:00,Sestao,Espanyol,4,3,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-10-27 18:45,2026-10-28 03:45,UD Castellonense,Almería,1,2,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-10-27 19:00,2026-10-28 04:00,Alcalá,Las Palmas,1,3,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-10-27 19:00,2026-10-28 04:00,Atlético Tordesillas,Mirandés,3,3,STATUS_FINAL_PEN,FT-Pens
+esp.copa_del_rey,2026-10-27 19:00,2026-10-28 04:00,Ciudad De Lucena,Rayo Majadahonda,0,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 19:00,2026-10-28 04:00,Gimnastica Segoviana,Cultural Leonesa,0,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 19:00,2026-10-28 04:00,Llanera,Ponferradina,1,1,STATUS_FINAL_PEN,FT-Pens
+esp.copa_del_rey,2026-10-27 19:30,2026-10-28 04:30,Don Benito,CD Extremadura,2,4,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-10-27 19:30,2026-10-28 04:30,Manresa,Sant Andreu,2,2,STATUS_FINAL_PEN,FT-Pens
+eng.league_cup,2026-10-27 19:45,2026-10-28 04:45,Bradford City,Peterborough United,2,0,STATUS_FULL_TIME,FT
+eng.league_cup,2026-10-27 20:00,2026-10-28 05:00,Fleetwood Town,Arsenal,1,1,STATUS_FINAL_PEN,FT-Pens
+esp.copa_del_rey,2026-10-27 20:00,2026-10-28 05:00,Arosa,Pontevedra,2,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 20:00,2026-10-28 05:00,Atlético Paso,Córdoba,3,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 20:00,2026-10-28 05:00,CD Tudelano,Real Zaragoza,0,4,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 20:00,2026-10-28 05:00,Manacor,Villarreal,0,5,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-27 20:00,2026-10-28 05:00,Recreativo Huelva,Rayo Vallecano,2,3,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-10-27 20:00,2026-10-28 05:00,Sporting de Alcázar,Málaga,0,3,STATUS_FULL_TIME,FT
+eng.league_cup,2026-10-28 19:30,2026-10-29 04:30,Manchester City,Brighton & Hove Albion,2,2,STATUS_FINAL_PEN,FT-Pens
+eng.league_cup,2026-10-28 19:45,2026-10-29 04:45,AFC Bournemouth,Aston Villa,3,0,STATUS_FULL_TIME,FT
+eng.league_cup,2026-10-28 19:45,2026-10-29 04:45,Fulham,Crystal Palace,0,1,STATUS_FULL_TIME,FT
+eng.league_cup,2026-10-28 19:45,2026-10-29 04:45,Sunderland,Brentford,3,2,STATUS_FULL_TIME,FT
+eng.league_cup,2026-10-28 20:00,2026-10-29 05:00,Liverpool,Chelsea,1,1,STATUS_FINAL_PEN,FT-Pens
+esp.copa_del_rey,2026-10-29 17:00,2026-10-30 02:00,Numancia,Real Oviedo,3,3,STATUS_FINAL_PEN,FT-Pens
+esp.copa_del_rey,2026-10-29 17:00,2026-10-30 02:00,Peña Sport,Huesca,1,5,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 18:00,2026-10-30 03:00,Atlético Baleares,Eldense,0,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 18:00,2026-10-30 03:00,Atlético Calatayud,Osasuna,0,6,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 18:00,2026-10-30 03:00,Coruxo,Zamora CF,0,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 18:00,2026-10-30 03:00,Poblense,Ceuta,1,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 18:00,2026-10-30 03:00,San Sebastián de los Reyes,Coria,1,2,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-10-29 18:00,2026-10-30 03:00,UB Lebrijana,Getafe,2,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 18:30,2026-10-30 03:30,Cieza,Granada,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 19:00,2026-10-30 04:00,Antequera CF,Aguilas,2,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 19:00,2026-10-30 04:00,CD Laredo,Burgos,2,4,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 19:00,2026-10-30 04:00,CD Varea,FC Andorra,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 19:00,2026-10-30 04:00,Conquense,Castellón,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 19:00,2026-10-30 04:00,Covadonga,Real Valladolid,0,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 19:00,2026-10-30 04:00,Guijuelo,Sporting Gijón,1,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 19:00,2026-10-30 04:00,Real Ávila,Unionistas de Salamanca,1,0,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-10-29 19:30,2026-10-30 04:30,Gimnástica Torrelavega,UD Ourense,3,1,STATUS_FINAL_AET,AET
+eng.league_cup,2026-10-29 19:45,2026-10-30 04:45,Everton,Newcastle United,3,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 20:00,2026-10-30 05:00,AE Prat,Athletic Club,1,6,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 20:00,2026-10-30 05:00,Auriense Cented Academy,Deportivo,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 20:00,2026-10-30 05:00,Ribadesella,Racing Santander,0,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 20:00,2026-10-30 05:00,Sporting Hortaleza,Sevilla,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-10-29 20:00,2026-10-30 05:00,Xerez,Cádiz,1,3,STATUS_FULL_TIME,FT
+esp.1,2026-10-30 20:00,2026-10-31 05:00,Villarreal,Espanyol,0,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-31 12:30,2026-10-31 21:30,Chelsea,Manchester United,2,0,STATUS_FULL_TIME,FT
+esp.1,2026-10-31 13:00,2026-10-31 22:00,Levante,Atlético Madrid,0,2,STATUS_FULL_TIME,FT
+eng.1,2026-10-31 15:00,2026-11-01 00:00,AFC Bournemouth,Leeds United,2,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-31 15:00,2026-11-01 00:00,Brentford,Nottingham Forest,2,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-31 15:00,2026-11-01 00:00,Coventry City,Sunderland,3,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-31 15:00,2026-11-01 00:00,Hull City,Ipswich Town,2,2,STATUS_FULL_TIME,FT
+eng.1,2026-10-31 15:00,2026-11-01 00:00,Manchester City,Brighton & Hove Albion,0,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-31 15:15,2026-11-01 00:15,Rayo Vallecano,Celta Vigo,3,0,STATUS_FULL_TIME,FT
+eng.1,2026-10-31 17:30,2026-11-01 02:30,Tottenham Hotspur,Crystal Palace,2,0,STATUS_FULL_TIME,FT
+esp.1,2026-10-31 17:30,2026-11-01 02:30,Real Betis,Málaga,2,1,STATUS_FULL_TIME,FT
+eng.1,2026-10-31 20:00,2026-11-01 05:00,Aston Villa,Fulham,1,1,STATUS_FULL_TIME,FT
+esp.1,2026-10-31 20:00,2026-11-01 05:00,Barcelona,Alavés,6,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-01 13:00,2026-11-01 22:00,Getafe,Sevilla,3,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-01 15:15,2026-11-02 00:15,Racing Santander,Real Madrid,0,3,STATUS_FULL_TIME,FT
+eng.1,2026-11-01 16:30,2026-11-02 01:30,Liverpool,Arsenal,0,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-01 17:30,2026-11-02 02:30,Elche,Valencia,0,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-01 20:00,2026-11-02 05:00,Athletic Club,Real Sociedad,2,1,STATUS_FULL_TIME,FT
+eng.1,2026-11-02 20:00,2026-11-03 05:00,Newcastle United,Everton,0,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-02 20:00,2026-11-03 05:00,Deportivo,Osasuna,2,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 17:45,2026-11-04 02:45,Galatasaray,VfB Stuttgart,2,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 17:45,2026-11-04 02:45,Shakhtar Donetsk,Sporting CP,0,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 20:00,2026-11-04 05:00,Atlético Madrid,Bayern Munich,0,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 20:00,2026-11-04 05:00,Barcelona,Aston Villa,3,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 20:00,2026-11-04 05:00,Bodo/Glimt,Lille,0,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 20:00,2026-11-04 05:00,Feyenoord Rotterdam,Internazionale,0,3,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 20:00,2026-11-04 05:00,LASK Linz,Slovan Bratislava,4,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 20:00,2026-11-04 05:00,Manchester United,AS Roma,3,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-03 20:00,2026-11-04 05:00,Villarreal,Paris Saint-Germain,0,6,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 17:45,2026-11-05 02:45,AEK Athens,Real Madrid,2,3,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 17:45,2026-11-05 02:45,Fenerbahce,Liverpool,3,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 20:00,2026-11-05 05:00,Borussia Dortmund,Real Betis,2,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 20:00,2026-11-05 05:00,FC Porto,Napoli,4,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 20:00,2026-11-05 05:00,Lens,Como,1,9,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 20:00,2026-11-05 05:00,PSV Eindhoven,Club Brugge,1,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 20:00,2026-11-05 05:00,RB Leipzig,Manchester City,2,3,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 20:00,2026-11-05 05:00,Slavia Prague,Arsenal,1,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-04 20:00,2026-11-05 05:00,Viking FK,Sabah FK,4,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-06 19:30,2026-11-07 04:30,Bristol Rovers,Cambridge United,2,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-06 19:45,2026-11-07 04:45,Oxford City,Leicester City,2,4,STATUS_FULL_TIME,FT
+eng.1,2026-11-06 20:00,2026-11-07 05:00,Everton,Coventry City,3,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-06 20:00,2026-11-07 05:00,Sevilla,Alavés,0,0,STATUS_FULL_TIME,FT
+eng.1,2026-11-07 12:30,2026-11-07 21:30,Leeds United,Tottenham Hotspur,1,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-07 13:00,2026-11-07 22:00,Málaga,Racing Santander,1,2,STATUS_FULL_TIME,FT
+eng.1,2026-11-07 15:00,2026-11-08 00:00,Arsenal,Hull City,1,0,STATUS_FULL_TIME,FT
+eng.1,2026-11-07 15:00,2026-11-08 00:00,Fulham,Newcastle United,1,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Accrington Stanley,Wycombe Wanderers,0,2,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,AFC Hornchurch,Blackpool,1,2,STATUS_FINAL_AET,AET
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Barnet,Tranmere Rovers,3,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Barnsley,Aldershot Town,7,2,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Boreham Wood,Wigan Athletic,0,3,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Bradford City,Marine,7,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Bromley,Rotherham United,0,2,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Burton Albion,AFC Rushden & Diamonds,4,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Carlisle United,Salford City,1,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Cheltenham Town,FC Halifax Town,2,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Chesterfield,Yeovil Town,4,3,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Colchester United,Worcester City,1,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Crewe Alexandra,AFC Wimbledon,2,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Dover Athletic,Wealdstone,2,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Eastleigh,Shrewsbury Town,1,2,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Fleetwood Town,Rochdale,1,2,STATUS_FINAL_AET,AET
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Gillingham,Barrow,0,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Guiseley,Sutton United,1,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Harrogate Town,AFC Fylde,1,4,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Huddersfield Town,Exeter City,1,2,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Kidderminster Harriers,Doncaster Rovers,3,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Leyton Orient,Harborough Town,5,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Luton Town,Forest Green Rovers,2,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Mansfield Town,Macclesfield FC,3,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Milton Keynes Dons,Swindon Town,2,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Newport County,Walsall,3,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Oxford United,Stevenage,0,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Plymouth Argyle,Alvechurch,4,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Port Vale,Scunthorpe United,4,2,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,Salisbury FC,Sholing,6,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 15:00,2026-11-08 00:00,York City,Northampton Town,4,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-07 15:15,2026-11-08 00:15,Espanyol,Deportivo,0,0,STATUS_FULL_TIME,FT
+eng.1,2026-11-07 17:30,2026-11-08 02:30,Nottingham Forest,Manchester City,3,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-07 17:30,2026-11-08 02:30,Osasuna,Athletic Club,1,1,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 17:30,2026-11-08 02:30,Altrincham,Notts County,2,2,STATUS_FINAL_PEN,FT-Pens
+esp.1,2026-11-07 20:00,2026-11-08 05:00,Valencia,Real Madrid,0,3,STATUS_FULL_TIME,FT
+eng.fa,2026-11-07 20:00,2026-11-08 05:00,Peterborough United,Reading,0,5,STATUS_FULL_TIME,FT
+eng.fa,2026-11-08 12:00,2026-11-08 21:00,Stafford Rangers,Grimsby Town,3,3,STATUS_FINAL_PEN,FT-Pens
+esp.1,2026-11-08 13:00,2026-11-08 22:00,Elche,Real Betis,0,2,STATUS_FULL_TIME,FT
+eng.1,2026-11-08 14:00,2026-11-08 23:00,Brighton & Hove Albion,Brentford,2,0,STATUS_FULL_TIME,FT
+eng.1,2026-11-08 14:00,2026-11-08 23:00,Crystal Palace,Liverpool,1,3,STATUS_FULL_TIME,FT
+eng.1,2026-11-08 14:00,2026-11-08 23:00,Ipswich Town,AFC Bournemouth,1,2,STATUS_FULL_TIME,FT
+eng.1,2026-11-08 14:00,2026-11-08 23:00,Sunderland,Chelsea,1,0,STATUS_FULL_TIME,FT
+eng.fa,2026-11-08 14:15,2026-11-08 23:15,Cray Wanderers,Stockport County,2,3,STATUS_FINAL_AET,AET
+eng.fa,2026-11-08 15:00,2026-11-09 00:00,Wimborne Town,Crawley Town,2,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-08 15:15,2026-11-09 00:15,Real Sociedad,Rayo Vallecano,1,0,STATUS_FULL_TIME,FT
+eng.1,2026-11-08 16:30,2026-11-09 01:30,Manchester United,Aston Villa,4,4,STATUS_FULL_TIME,FT
+eng.fa,2026-11-08 17:15,2026-11-09 02:15,Oldham Athletic,Sheffield Wednesday,2,1,STATUS_FINAL_AET,AET
+esp.1,2026-11-08 17:30,2026-11-09 02:30,Celta Vigo,Levante,0,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-08 17:30,2026-11-09 02:30,Villarreal,Getafe,2,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-08 20:00,2026-11-09 05:00,Atlético Madrid,Barcelona,1,2,STATUS_FULL_TIME,FT
+eng.fa,2026-11-09 19:30,2026-11-10 04:30,Plymouth Parkway,Berkhamsted,2,1,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-11-10 18:00,2026-11-11 03:00,Anaitasuna,Alavés,1,6,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-10 18:00,2026-11-11 03:00,CD Pamplona,Eibar,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-10 19:00,2026-11-11 04:00,Amorebieta,UD Logroñés,1,0,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-10 19:00,2026-11-11 04:00,Mijas Las Lagunas,Real Jaen CF,1,2,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-10 19:00,2026-11-11 04:00,Trival Valderas,Leganés,0,1,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-10 20:00,2026-11-11 05:00,Tavernes de la Valldigna,Valencia,0,6,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-12 17:30,2026-11-13 02:30,CS Puertollano,Albacete,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-12 18:00,2026-11-13 03:00,CD Artistico Navalcarnero,Real Betis,2,3,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-11-12 18:00,2026-11-13 03:00,CD Tarancon,Levante,1,2,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-11-13 20:00,2026-11-14 05:00,Salamanca UDS,Celta Vigo,0,5,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-18 18:00,2026-11-19 03:00,Portugalete,Real Unión Irun,0,0,STATUS_FINAL_PEN,FT-Pens
+esp.copa_del_rey,2026-11-18 18:00,2026-11-19 03:00,Utebo,CD Sabadell,0,3,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-18 19:00,2026-11-19 04:00,Alcoyano,Mallorca,1,3,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-11-18 19:00,2026-11-19 04:00,Badajoz,Tenerife,2,5,STATUS_FULL_TIME,FT
+esp.copa_del_rey,2026-11-18 19:30,2026-11-19 04:30,CD Minera,FC Cartagena,1,2,STATUS_FINAL_AET,AET
+esp.copa_del_rey,2026-11-18 19:30,2026-11-19 04:30,Reus FC Reddis,Barakaldo,1,1,STATUS_FINAL_PEN,FT-Pens
+esp.1,2026-11-20 20:00,2026-11-21 05:00,Athletic Club,Espanyol,0,1,STATUS_FULL_TIME,FT
+eng.1,2026-11-21 12:30,2026-11-21 21:30,Manchester City,Fulham,1,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-21 13:00,2026-11-21 22:00,Alavés,Deportivo,3,1,STATUS_FULL_TIME,FT
+eng.1,2026-11-21 15:00,2026-11-22 00:00,AFC Bournemouth,Nottingham Forest,2,0,STATUS_FULL_TIME,FT
+eng.1,2026-11-21 15:00,2026-11-22 00:00,Aston Villa,Sunderland,0,0,STATUS_FULL_TIME,FT
+eng.1,2026-11-21 15:00,2026-11-22 00:00,Chelsea,Leeds United,1,4,STATUS_FULL_TIME,FT
+eng.1,2026-11-21 15:00,2026-11-22 00:00,Coventry City,Crystal Palace,3,2,STATUS_FULL_TIME,FT
+eng.1,2026-11-21 15:00,2026-11-22 00:00,Tottenham Hotspur,Ipswich Town,2,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-21 15:15,2026-11-22 00:15,Rayo Vallecano,Valencia,0,1,STATUS_FULL_TIME,FT
+eng.1,2026-11-21 17:30,2026-11-22 02:30,Newcastle United,Arsenal,2,2,STATUS_FULL_TIME,FT
+esp.1,2026-11-21 17:30,2026-11-22 02:30,Sevilla,Real Betis,1,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-21 20:00,2026-11-22 05:00,Real Madrid,Celta Vigo,2,1,STATUS_FULL_TIME,FT
+esp.1,2026-11-22 13:00,2026-11-22 22:00,Barcelona,Villarreal,3,2,STATUS_FULL_TIME,FT
+eng.1,2026-11-22 14:00,2026-11-22 23:00,Hull City,Brighton & Hove Albion,2,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-22 15:15,2026-11-23 00:15,Racing Santander,Real Sociedad,3,2,STATUS_FULL_TIME,FT
+eng.1,2026-11-22 16:30,2026-11-23 01:30,Liverpool,Manchester United,4,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-22 17:30,2026-11-23 02:30,Osasuna,Málaga,1,0,STATUS_FULL_TIME,FT
+esp.1,2026-11-22 20:00,2026-11-23 05:00,Getafe,Atlético Madrid,0,3,STATUS_FULL_TIME,FT
