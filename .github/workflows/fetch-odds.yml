@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: "15 7 * * *"   # 16:15 JST（予想の 18:00 JST より前）
     - cron: "15 8 * * *"   # 念のためもう一度
+    - cron: "20 0 * * *"   # 09:20 JST（月曜 10:00 の週次学習の前に、週末の結果を取り込む）
   workflow_dispatch:
 permissions:
   contents: write
@@ -79,6 +80,44 @@ jobs:
           PY
           python3 us_fetch.py data || true
           rm -f us_fetch.py
+      - name: Download final scores from ESPN (PL, La Liga, CL, cups)
+        run: |
+          cat > results_fetch.py <<'PY'
+          """ESPN の公開スコアボードから直近60日の試合結果を data/results.csv に書く（週次の答え合わせ用）。"""
+          import csv, json, os, sys, time, urllib.request
+          from datetime import datetime, timedelta, timezone
+          LGS = ["eng.1", "esp.1", "uefa.champions", "eng.fa", "eng.league_cup", "esp.copa_del_rey", "esp.super_cup"]
+          JST = timezone(timedelta(hours=9))
+          def main(out):
+              now = datetime.now(timezone.utc); rows = []
+              seen = set()
+              for lg in LGS:
+                for k in range(61):
+                  day = (now - timedelta(days=k)).strftime("%Y%m%d")
+                  u = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={day}"
+                  try: d = json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=60))
+                  except Exception as e:
+                      print(lg, day, "ERR", e); continue
+                  for e in d.get("events") or []:
+                      c = (e.get("competitions") or [{}])[0]; st = ((c.get("status") or {}).get("type") or {})
+                      if not st.get("completed"): continue
+                      t = {x.get("homeAway"): x for x in c.get("competitors") or []}
+                      if "home" not in t or "away" not in t or e.get("id") in seen: continue
+                      seen.add(e.get("id"))
+                      ko = datetime.strptime(e["date"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+                      rows.append([lg, ko.strftime("%Y-%m-%d %H:%M"), ko.astimezone(JST).strftime("%Y-%m-%d %H:%M"),
+                                   t["home"]["team"].get("displayName"), t["away"]["team"].get("displayName"),
+                                   t["home"].get("score"), t["away"].get("score"), st.get("name"), st.get("detail")])
+                  time.sleep(0.3)
+              rows.sort(key=lambda r: r[1])
+              with open(os.path.join(out, "results.csv"), "w", newline="", encoding="utf-8") as f:
+                  w = csv.writer(f); w.writerow(["league", "kick_utc", "kick_jst", "home", "away", "hs", "as", "status", "detail"]); w.writerows(rows)
+              print(len(rows), "results")
+          if __name__ == "__main__":
+              main(sys.argv[1] if len(sys.argv) > 1 else "data")
+          PY
+          python3 results_fetch.py data || true
+          rm -f results_fetch.py
       - name: Commit
         run: |
           git config user.name "odds-bot"
