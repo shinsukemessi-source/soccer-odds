@@ -1,9 +1,4 @@
 league,kick_utc,kick_jst,home,away,hs,as,status,detail
-esp.copa_del_rey,2026-09-26 16:00,2026-09-27 01:00,Anaitasuna,CD Tedeón,5,0,STATUS_FULL_TIME,FT
-esp.copa_del_rey,2026-09-26 16:00,2026-09-27 01:00,Atlético Calatayud,CD Baztán,2,0,STATUS_FULL_TIME,FT
-esp.copa_del_rey,2026-09-26 16:00,2026-09-27 01:00,UB Lebrijana,Ceuta 6 de Junio,5,0,STATUS_FULL_TIME,FT
-esp.copa_del_rey,2026-09-26 17:00,2026-09-27 02:00,Ribadesella,SD Noja,1,0,STATUS_FULL_TIME,FT
-esp.copa_del_rey,2026-09-26 18:00,2026-09-27 03:00,Atlético Pinatarense,Atlético Melilla,8,0,STATUS_FULL_TIME,FT
 esp.copa_del_rey,2026-09-27 10:00,2026-09-27 19:00,Auriense Cented Academy,CD San José,2,0,STATUS_FULL_TIME,FT
 esp.copa_del_rey,2026-09-27 10:00,2026-09-27 19:00,Sporting Hortaleza,Atlético Unión Güímar,1,0,STATUS_FULL_TIME,FT
 esp.copa_del_rey,2026-09-27 14:00,2026-09-27 23:00,CF San Rafael,AE Prat,1,5,STATUS_FULL_TIME,FT
@@ -306,3 +301,12 @@ uefa.champions,2026-11-24 20:00,2026-11-25 05:00,Manchester City,Napoli,2,2,STAT
 uefa.champions,2026-11-24 20:00,2026-11-25 05:00,RB Leipzig,Lens,3,1,STATUS_FULL_TIME,FT
 uefa.champions,2026-11-24 20:00,2026-11-25 05:00,Real Madrid,PSV Eindhoven,5,1,STATUS_FULL_TIME,FT
 uefa.champions,2026-11-24 20:00,2026-11-25 05:00,Slovan Bratislava,Real Betis,0,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 17:45,2026-11-26 02:45,Sabah FK,Barcelona,1,4,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 17:45,2026-11-26 02:45,Slavia Prague,Villarreal,0,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 20:00,2026-11-26 05:00,Atlético Madrid,Viking FK,2,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 20:00,2026-11-26 05:00,Club Brugge,Liverpool,0,3,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 20:00,2026-11-26 05:00,Internazionale,VfB Stuttgart,2,0,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 20:00,2026-11-26 05:00,Lille,Bayern Munich,2,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 20:00,2026-11-26 05:00,Paris Saint-Germain,AS Roma,2,2,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 20:00,2026-11-26 05:00,Shakhtar Donetsk,Fenerbahce,0,1,STATUS_FULL_TIME,FT
+uefa.champions,2026-11-25 20:00,2026-11-26 05:00,Sporting CP,Manchester United,2,2,STATUS_FULL_TIME,FT
